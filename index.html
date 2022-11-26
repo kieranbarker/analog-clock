@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="visually-hidden"></div>
+
+    <svg viewBox="-50 -50 100 100">
+      <circle class="clock-face" r="48" />
+
+      <line class="major" y1="35" y2="45" transform="rotate(0)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(6)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(12)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(18)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(24)" />
+
+      <line class="major" y1="35" y2="45" transform="rotate(30)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(36)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(42)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(48)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(54)" />
+
+      <line class="major" y1="35" y2="45" transform="rotate(60)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(66)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(72)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(78)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(84)" />
+
+      <line class="major" y1="35" y2="45" transform="rotate(90)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(96)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(102)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(108)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(114)" />
+
+      <line class="major" y1="35" y2="45" transform="rotate(120)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(126)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(132)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(138)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(144)" />
+
+      <line class="major" y1="35" y2="45" transform="rotate(150)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(156)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(162)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(168)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(174)" />
+
+      <line class="major" y1="35" y2="45" transform="rotate(180)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(186)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(192)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(198)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(204)" />
+
+      <line class="major" y1="35" y2="45" transform="rotate(210)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(216)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(222)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(228)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(234)" />
+
+      <line class="major" y1="35" y2="45" transform="rotate(240)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(246)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(252)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(258)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(264)" />
+
+      <line class="major" y1="35" y2="45" transform="rotate(270)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(276)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(282)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(288)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(294)" />
+
+      <line class="major" y1="35" y2="45" transform="rotate(300)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(306)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(312)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(318)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(324)" />
+
+      <line class="major" y1="35" y2="45" transform="rotate(330)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(336)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(342)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(348)" />
+      <line class="minor" y1="42" y2="45" transform="rotate(354)" />
+
+      <line class="hour" y1="2" y2="-20" />
+
+      <line class="minute" y1="4" y2="-30" />
+
+      <g class="second">
+        <line class="second-hand" y1="10" y2="-38" />
+        <line class="second-counterweight" y1="10" y2="2" />
+      </g>
+    </svg>
+
+    <script src="app.js"></script>
+  </body>
+</html>
